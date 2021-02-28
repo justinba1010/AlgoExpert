@@ -1,2 +1,0 @@
-# AlgoExpert
-Algorithms in C++
