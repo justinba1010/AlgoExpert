@@ -14,10 +14,10 @@ public:
 };
 
 int nodeDepths(BinaryTree *root, int currDepth) {
-	if (root == NULL) {
-		return 0;
-	}
-	return currDepth + nodeDepths(root->left, currDepth + 1) + nodeDepths(root->right, currDepth + 1);
+    if (root == NULL) {
+        return 0;
+    }
+    return currDepth + nodeDepths(root->left, currDepth + 1) + nodeDepths(root->right, currDepth + 1);
 }
 
 int nodeDepths(BinaryTree *root) {

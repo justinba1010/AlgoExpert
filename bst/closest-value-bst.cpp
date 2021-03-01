@@ -9,20 +9,20 @@ public:
 };
 
 int traverse(BST *tree, int target, int closest) {
-	if (tree == NULL) {
-		return closest;
-	}
-	int val = tree->value;
-	if (val == target) {
-		return val;
-	} else if (val < target) {
-		int c = target - val < abs(closest - target) ? val : closest;
-		return traverse(tree->right, target, c);
-	} else if (val > target) {
-		int c = (val - target < abs(closest - target)) ? val : closest;
-		return traverse(tree->left, target, c);
-	}
-	return closest;
+    if (tree == NULL) {
+        return closest;
+    }
+    int val = tree->value;
+    if (val == target) {
+        return val;
+    } else if (val < target) {
+        int c = target - val < abs(closest - target) ? val : closest;
+        return traverse(tree->right, target, c);
+    } else if (val > target) {
+        int c = (val - target < abs(closest - target)) ? val : closest;
+        return traverse(tree->left, target, c);
+    }
+    return closest;
 }
 
 int findClosestValueInBst(BST *tree, int target) {
