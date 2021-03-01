@@ -1,3 +1,9 @@
+/* Copyright 2021
+** Justin Baum
+** MIT License
+** AlgoExpert Solutions
+*/
+
 using namespace std;
 
 int getDefault(vector<vector<int>> &ways, int x, int y, int h, int w) {

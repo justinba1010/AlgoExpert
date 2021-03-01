@@ -1,3 +1,9 @@
+/* Copyright 2021
+** Justin Baum
+** MIT License
+** AlgoExpert Solutions
+*/
+
 i#include <vector>
 using namespace std;
 

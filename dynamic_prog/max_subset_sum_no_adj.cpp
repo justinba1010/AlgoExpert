@@ -1,3 +1,9 @@
+/* Copyright 2021
+** Justin Baum
+** MIT License
+** AlgoExpert Solutions
+*/
+
 int maxSubsetSumNoAdjacent(vector<int> array) {
   // Write your code here.
     int l = array.size();

@@ -1,3 +1,9 @@
+/* Copyright 2021
+** Justin Baum
+** MIT License
+** AlgoExpert Solutions
+*/
+
 class BST {
 public:
   int value;

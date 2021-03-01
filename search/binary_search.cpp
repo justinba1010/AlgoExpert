@@ -1,3 +1,9 @@
+/* Copyright 2021
+** Justin Baum
+** MIT License
+** AlgoExpert Solutions
+*/
+
 int binarySearch(vector<int> arr, int target) {
   // Write your code here.
     int i = 0;

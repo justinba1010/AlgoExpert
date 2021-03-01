@@ -1,3 +1,9 @@
+/* Copyright 2021
+** Justin Baum
+** MIT License
+** AlgoExpert Solutions
+*/
+
 using namespace std;
 
 int fib(int n, int f_1, int f_2) {
