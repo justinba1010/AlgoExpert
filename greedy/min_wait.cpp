@@ -8,7 +8,6 @@
 using namespace std;
 
 int minimumWaitingTime(vector<int> queries) {
-  // Write your code here.
     int size = queries.size();
     if (size == 0) return 0;
     sort(queries.begin(), queries.end());

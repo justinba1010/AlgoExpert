@@ -8,7 +8,6 @@
 using namespace std;
 
 int numberOfWaysToMakeChange(int n, vector<int> denoms) {
-  // Write your code here.
     // Knapsack- Kind of
     if (n <= 0) return 1;
     vector<int> counts = vector(n + 1, 0);

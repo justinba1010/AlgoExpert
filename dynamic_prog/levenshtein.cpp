@@ -11,7 +11,6 @@ int min3(int x, int y, int z){
 }
 
 int levenshteinDistance(string str1, string str2) {
-  // Write your code here.
     int n,m;
     n = str1.length();
     m = str2.length();

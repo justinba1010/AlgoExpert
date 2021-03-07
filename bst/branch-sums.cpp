@@ -35,7 +35,6 @@ void branches(BinaryTree *currentBranch, vector<int> &vec, int sum) {
 }
 
 vector<int> branchSums(BinaryTree *root) {
-  // Write your code here.
     vector<int> vec;
     branches(root, vec, 0);
   return vec;

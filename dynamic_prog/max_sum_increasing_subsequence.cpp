@@ -9,7 +9,6 @@
 using namespace std;
 
 vector<vector<int>> maxSumIncreasingSubsequence(vector<int> array) {
-  // Write your code here.
     int n = array.size();
     vector<int> sums(array);
     vector<vector<int>> subsequences(n, vector<int>());

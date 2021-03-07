@@ -27,6 +27,5 @@ int nodeDepths(BinaryTree *root, int currDepth) {
 }
 
 int nodeDepths(BinaryTree *root) {
-  // Write your code here.
   return nodeDepths(root, 0);
 }

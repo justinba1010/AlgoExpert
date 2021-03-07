@@ -24,7 +24,6 @@ int dfs(vector<vector<bool>> &visited, const vector<vector<int>> &matrix, int i,
 }
 
 vector<int> riverSizes(vector<vector<int>> matrix) {
-  // Write your code here.
     vector<int> sizes;
     int h = matrix.size();
     int w = (h > 0) ? matrix[0].size() : 0;

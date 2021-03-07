@@ -7,7 +7,6 @@
 using namespace std;
 
 vector<int> spiralTraverse(vector<vector<int>> array) {
-  // Write your code here.
     int i_end = array.size() - 1;
     int j_end = (i_end >= 0) ? array[0].size() - 1: 0;
     int i = 0;

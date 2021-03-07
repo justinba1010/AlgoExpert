@@ -18,7 +18,6 @@ public:
     }
 
   vector<int> buildHeap(vector<int> &vector_) {
-    // Write your code here.
         vector<int> vec;
         for (int x : vector_) {
             vec.push_back(x);

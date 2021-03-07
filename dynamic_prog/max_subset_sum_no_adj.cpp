@@ -5,7 +5,6 @@
 */
 
 int maxSubsetSumNoAdjacent(vector<int> array) {
-  // Write your code here.
     int l = array.size();
     if (l == 0) return 0;
     vector<int> maxy = vector<int>(l, array[0]);

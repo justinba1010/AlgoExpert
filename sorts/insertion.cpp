@@ -8,7 +8,6 @@
 using namespace std;
 
 vector<int> insertionSort(vector<int> array) {
-  // Write your code here.
     int s = array.size();
     for (int i = 0; i < s - 1; ++i) {
         int minIndex = i;

@@ -8,7 +8,6 @@
 using namespace std;
 
 vector<int> findThreeLargestNumbers(vector<int> array) {
-  // Write your code here.
     int m1, m2, m3;
     m1 = m2 = m3 = INT_MIN;
     for (int x : array) {

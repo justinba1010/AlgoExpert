@@ -8,7 +8,6 @@ i#include <vector>
 using namespace std;
 
 vector<int> twoNumberSum(vector<int> array, int targetSum) {
-  // Write your code here.
     int i,j;
     sort(array.begin(), array.end());
     i = 0;

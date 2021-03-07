@@ -32,6 +32,5 @@ int traverse(BST *tree, int target, int closest) {
 }
 
 int findClosestValueInBst(BST *tree, int target) {
-  // Write your code here.
   return traverse(tree, target, tree->value);
 }
